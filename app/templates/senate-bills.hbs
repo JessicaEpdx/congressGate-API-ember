@@ -1,0 +1,15 @@
+<div class="row">
+  <h2>Bills in the Senate</h2>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <ul class="bill-list">
+      {{#each sortedSenateBills as |bill|}}
+        <li class="bill-id">Bill Number {{bill.bill_id}}</li>
+        <li><a href={{bill.url}}>{{bill.url}}</a></li>
+        <li class="context">{{bill.context}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

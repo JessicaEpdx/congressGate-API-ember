@@ -1,0 +1,21 @@
+<div class="row">
+  <h1>Upcoming Bills</h1>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <ul class="bill-list">
+      {{#each bill in model}}
+          <li>{{#link-to 'bill' bill.bill_id}}Bill Number {{bill.bill_id}}{{/link-to}}</li>
+          <li>Introduced On: {{bill.legislative_day}}</li>
+          <li>Chamber: {{bill.chamber}}</li>
+          <li class="context">{{bill.context}}</li>
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="col-sm-6">
+    {{outlet}}
+  </div>
+
+</div>

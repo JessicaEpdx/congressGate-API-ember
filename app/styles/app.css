@@ -1,0 +1,39 @@
+.container{
+  margin-top:70px;
+}
+.name{
+  color:green;
+  font-weight:bold;
+  font-size:15px;
+}
+
+.leg-list{
+  list-style:none;
+}
+
+.contact{
+  margin-bottom:10px;
+}
+
+.contact a{
+  color:black;
+}
+
+.contact a:hover{
+  text-decoration:none;
+  color:lightgrey;
+}
+
+.context{
+  margin-bottom:20px;
+}
+
+.bill-list{
+  list-style:none;
+}
+
+.bill-id{
+  color:navy;
+  font-weight:bold;
+  font-size:20px;
+}

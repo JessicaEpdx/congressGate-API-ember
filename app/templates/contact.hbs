@@ -1,0 +1,8 @@
+<div class="col-sm-6">
+  <ul class="leg-list">
+    {{#each legislator in model}}
+      <li class="name">{{legislator.first_name}} {{legislator.last_name}}</li>
+      <li class="contact"><a href={{legislator.contact_form}}>{{legislator.contact_form}}</a></li>
+    {{/each}}
+  </ul>
+</div>
