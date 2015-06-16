@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h2 class="header">House Committees</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <ul class="com-list">
+      {{#each model as |com|}}
+        <li class="name">{{com.name}}</li>
+        <li>{{com.committee_id}}</li>
+        <li class="com-sub"> Is it a subcommittee? {{com.subcommittee}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

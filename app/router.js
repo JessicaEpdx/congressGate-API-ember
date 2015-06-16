@@ -12,6 +12,9 @@ Router.map(function() {
   this.route('bills');
   this.resource('senate-bills', {path: 'bills/senate'});
   this.resource('house-bills', {path: 'bills/house'});
+  this.route('committees');
+  this.resource('senate-committees', {path: 'committees/senate'});
+  this.resource('house-committees', {path: 'committees/house'});
 
 });
 

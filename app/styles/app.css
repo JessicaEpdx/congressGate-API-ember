@@ -1,14 +1,15 @@
 .container{
   margin-top:70px;
 }
-.name{
-  color:green;
-  font-weight:bold;
-  font-size:15px;
+
+ul{
+  list-style:none;
 }
 
-.leg-list{
-  list-style:none;
+.name{
+  color:#e88822;
+  font-weight:bold;
+  font-size:15px;
 }
 
 .contact{
@@ -28,12 +29,47 @@
   margin-bottom:20px;
 }
 
-.bill-list{
-  list-style:none;
-}
-
 .bill-id{
   color:navy;
   font-weight:bold;
   font-size:20px;
+}
+
+.com-sub{
+  margin-bottom:20px;
+}
+
+.link-to-button{
+  background-color:#4778ff;
+  padding:10px;
+  margin:10px;
+  color:white;
+  font-size:15px;
+  border-radius:7px;
+}
+
+.link-to-button:hover{
+  background-color:#073184;
+  color:white;
+}
+
+.link-to-button:hover{
+  text-decoration: none;
+  border:1px solid #051149;
+}
+
+.header{
+  margin-bottom:40px;
+}
+
+.content-container{
+  text-align:center;
+}
+
+.committee{
+  background-color:#17a81e;
+}
+.committee:hover{
+  background-color:#066b1c;
+  border:1px solid #064409;
 }
